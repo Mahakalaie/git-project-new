@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63e29d47-8da3-4e0c-822d-392a3cc2ff1c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/survey-form/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/survey-form/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/survey-form/src/packages/informationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/survey-form/src/packages/informationPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="63e29d47-8da3-4e0c-822d-392a3cc2ff1c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,25 +25,12 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "english-components",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Java/git-project-1/git-project-new"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="git-project-new" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="git-project-new" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

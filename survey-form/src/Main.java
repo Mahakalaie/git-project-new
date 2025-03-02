@@ -1,5 +1,6 @@
 import javax.swing.*;
 import packages.informationPage;
+import java.awt.*;
 
 public class Main {
 
@@ -16,13 +17,17 @@ public class Main {
         panel.setLayout(new BorderLayout());
         panel.setBounds(0, 0, 600, 600);
 
+        Font myFont = new Font("Arial", Font.PLAIN, 10);
+
         // Create title label
         JLabel title = new JLabel("Survey form");
-        //title.setBounds(10, 10, 100, 20);
+        title.setBounds(10, 10, 100, 20);
+        title.setFont(myFont);
 
         // Create start button
         JButton startButton = new JButton("Start!");
         startButton.setBounds(10, 40, 100, 20);
+        startButton.setFont(myFont);
 
         // Add components to the panel
         panel.add(title, BorderLayout.NORTH);
