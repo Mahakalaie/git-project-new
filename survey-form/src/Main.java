@@ -20,8 +20,6 @@ public class Main {
 
         Font myFont = new Font("Arial", Font.PLAIN, 10);
 
-        Font myFont = new Font("Arial", Font.PLAIN, 10);
-
         // Create title label
         JLabel title = new JLabel("Survey form");
         title.setBounds(10, 10, 100, 20);
