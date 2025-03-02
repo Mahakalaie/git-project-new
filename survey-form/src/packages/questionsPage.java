@@ -10,6 +10,7 @@ public class questionsPage {
         JPanel panel = new JPanel();
         panel.setBounds(0, 0, 600, 600);
         panel.setLayout(null);
+        panel.setBackground(Color.YELLOW);
 
         Font myFont = new Font("Arial", Font.PLAIN, 10);
 
@@ -142,6 +143,8 @@ public class questionsPage {
         });
 
         // Add components to the panel
+        panel.add(Box.createRigidArea(new Dimension(20, 20)));
+
         panel.add(question1);
         panel.add(radio1_1);
         panel.add(radio1_2);
