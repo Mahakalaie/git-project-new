@@ -9,46 +9,46 @@ public class informationPage {
         // Create the main panel
         JPanel panel = new JPanel();
         panel.setBounds(0, 0, 600, 600);
-        panel.setLayout(null);
+        panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
 
         Font myFont = new Font("Arial", Font.PLAIN, 10);
 
         // Name Label and Text Field
-        JLabel nameLabel = new JLabel("اسم");
+        JLabel nameLabel = new JLabel("Name");
         nameLabel.setBounds(10, 10, 100, 20);
         nameLabel.setFont(myFont);
         JTextField nameField = new JTextField(15);
         nameField.setBounds(50, 10, 100, 20);
 
         // Age Label and Text Field
-        JLabel ageLabel = new JLabel("سن");
+        JLabel ageLabel = new JLabel("Age");
         ageLabel.setBounds(10, 50, 100, 20);
         ageLabel.setFont(myFont);
         JTextField ageField = new JTextField(15);
         ageField.setBounds(50, 50, 100, 20);
 
         // Email Label and Text Field
-        JLabel emailLabel = new JLabel("ایمیل");
+        JLabel emailLabel = new JLabel("Email");
         emailLabel.setBounds(10, 90, 100, 20);
         emailLabel.setFont(myFont);
         JTextField emailField = new JTextField(15);
         emailField.setBounds(50, 90, 100, 20);
 
         // Software Familiarity Level
-        JLabel levelLabel = new JLabel("سطح آشنایی با نرم افزارهای مشابه");
+        JLabel levelLabel = new JLabel("Level of familiarity with similar programs");
         levelLabel.setBounds(10, 130, 250, 20);
         levelLabel.setFont(myFont);
 
-        JRadioButton level1 = new JRadioButton("مبتدی");
+        JRadioButton level1 = new JRadioButton("Beginner");
         level1.setBounds(10, 160, 100, 20);
         level1.setFont(myFont);
-        JRadioButton level2 = new JRadioButton("متوسط");
+        JRadioButton level2 = new JRadioButton("Intermediate");
         level2.setBounds(100, 160, 100, 20);
         level2.setFont(myFont);
-        JRadioButton level3 = new JRadioButton("پیشرفته");
+        JRadioButton level3 = new JRadioButton("Advanced");
         level3.setBounds(190, 160, 100, 20);
         level3.setFont(myFont);
-        JRadioButton level4 = new JRadioButton("بدون آشنایی");
+        JRadioButton level4 = new JRadioButton("Not Familiar");
         level4.setBounds(280, 160, 150, 20);
         level4.setFont(myFont);
 
@@ -60,7 +60,7 @@ public class informationPage {
         group.add(level4);
 
         // Next Page Button
-        JButton nextButton = new JButton("صفحه بعد");
+        JButton nextButton = new JButton("Next Page");
         nextButton.setBounds(10, 200, 100, 20);
         nextButton.setFont(myFont);
         nextButton.addActionListener(e -> {
