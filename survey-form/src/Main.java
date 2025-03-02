@@ -16,6 +16,9 @@ public class Main {
         JPanel panel = new JPanel();
         panel.setLayout(new BorderLayout());
         panel.setBounds(0, 0, 600, 600);
+        panel.setBackground(Color.YELLOW);
+
+        Font myFont = new Font("Arial", Font.PLAIN, 10);
 
         Font myFont = new Font("Arial", Font.PLAIN, 10);
 
@@ -23,6 +26,7 @@ public class Main {
         JLabel title = new JLabel("Survey form");
         title.setBounds(10, 10, 100, 20);
         title.setFont(myFont);
+        title.setHorizontalAlignment(JLabel.CENTER);
 
         // Create start button
         JButton startButton = new JButton("Start!");

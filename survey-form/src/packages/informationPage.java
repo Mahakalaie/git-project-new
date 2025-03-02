@@ -10,6 +10,9 @@ public class informationPage {
         JPanel panel = new JPanel();
         panel.setBounds(0, 0, 600, 600);
         panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
+        panel.setBackground(Color.YELLOW);
+
+        Font myFont = new Font("Arial", Font.PLAIN, 10);
 
         Font myFont = new Font("Arial", Font.PLAIN, 10);
 
@@ -77,6 +80,8 @@ public class informationPage {
         });
 
         // Add components to the panel
+        panel.add(Box.createRigidArea(new Dimension(20, 20)));
+
         panel.add(nameLabel);
         panel.add(nameField);
         panel.add(ageLabel);
