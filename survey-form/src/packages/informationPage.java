@@ -14,6 +14,8 @@ public class informationPage {
 
         Font myFont = new Font("Arial", Font.PLAIN, 10);
 
+        Font myFont = new Font("Arial", Font.PLAIN, 10);
+
         // Name Label and Text Field
         JLabel nameLabel = new JLabel("Name");
         nameLabel.setBounds(10, 10, 100, 20);

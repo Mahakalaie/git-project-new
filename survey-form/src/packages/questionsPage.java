@@ -14,6 +14,8 @@ public class questionsPage {
 
         Font myFont = new Font("Arial", Font.PLAIN, 10);
 
+        Font myFont = new Font("Arial", Font.PLAIN, 10);
+
         // Question 1
         JLabel question1 = new JLabel("How interesting do you find the user interface of the program?");
         question1.setBounds(10, 10, 300, 20);
